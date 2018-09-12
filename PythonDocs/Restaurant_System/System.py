@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import *
 import random
 import time;
 
@@ -38,8 +38,8 @@ localtime=time.asctime(time.localtime(time.time()))
 lblInfo = Label(Top,font=('arial',50,'bold'),text="Restaurant Management System",fg="Steel Blue",bd=10,anchor='w')
 lblInfo.grid(row=0,column=0)
 
-lblInfo = Label(Top,font=('arial',20,'bold'),text=localtime,fg="Steel Blue",bd=10,anchor='w')
-lblInfo.grid(row=1,column=0)
+'''lblInfo = Label(Top,font=('arial',20,'bold'),text=localtime,fg="Steel Blue",bd=10,anchor='w')
+lblInfo.grid(row=1,column=0)'''
 
 ##Calculator Function##
 def btnClick(numbers):
